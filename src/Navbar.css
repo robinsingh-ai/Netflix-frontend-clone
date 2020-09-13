@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  transition: all 0.4s ease-in;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  object-fit: contain;
+  margin: 10px 15px;
+  width: 100px;
+}
+
+.nav__main {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 40px;
+  margin: 8px 10px;
+
+  object-fit: contain;
+}
+
+.nav_scroller {
+  background-color: black;
+}
+
+.NavBArOption {
+  font-size: 16px;
+
+  font-weight: bolder;
+  color: white;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.NavBArOption:hover {
+  text-decoration: none;
+  color: rgba(216, 213, 213, 0.6);
+}
+
+.nav__options {
+  margin-left: 40px;
+}
