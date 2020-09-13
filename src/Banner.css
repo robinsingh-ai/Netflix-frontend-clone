@@ -1,0 +1,56 @@
+.bannerimg {
+  background-size: cover;
+  position: relative;
+  height: 110vh;
+
+  /* // ? is for if for anyreason if backgound image crashes then it wil handle */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner_content {
+  padding-top: 140px;
+
+  color: white;
+}
+
+.banner_name {
+  padding: 15px 0px;
+
+  color: #e50914;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.banner__overvieew {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.banner__button {
+  color: white;
+  outline: none;
+  margin-right: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 25px;
+  background-color: rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.banner__button:hover {
+  transition: all 0.4s ease-in;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+
+.banner--bottom {
+  height: 7em;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    rgb(14, 14, 14)
+  );
+}
