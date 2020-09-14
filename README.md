@@ -1,3 +1,27 @@
+# Netflix Frontend Clone
+
+
+## Tech Stack
+
+- React js
+- Firebase for deploy
+- React Hooks
+- React Router
+- styled-components
+- material-ui icons
+- TMDB (movies Database API )
+
+
+## Preview
+- https://netflix-website-clone.web.app/
+## Devlopment
+
+```
+$ git clone https://netflix-website-clone.web.app/
+$ cd netflix-frontend-clone
+$ npm install && npm start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
